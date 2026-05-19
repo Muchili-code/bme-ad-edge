@@ -25,3 +25,5 @@ build/
 # Local environment and runtime output
 .env
 *.log
+data/cases/*/output/*
+!data/cases/*/output/.gitkeep
