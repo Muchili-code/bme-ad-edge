@@ -151,6 +151,16 @@ wsl -d Ubuntu --cd /home/<user>/ad-edge-demo -- bash -lc "./start_demo.sh"
 
 禁止在 Windows PowerShell 中直接对 WSL 项目运行 Windows 版 `npm install`、`pip install`、`python`、`uvicorn` 或 `vite`。项目中的 `.venv/`、`node_modules/`、`dist/`、`build/` 应只由 WSL 内的 Python/Node 工具生成。这样可以避免软链接、二进制依赖、路径分隔符和权限差异导致迁移失败。
 
+如果已经进入 WSL 终端并位于项目根目录，后端测试不要裸跑 `python`、`pytest`、`uvicorn`。统一使用项目虚拟环境：
+
+```bash
+.venv/bin/python -m pytest backend/tests -q
+.venv/bin/python backend/tests/ri_smoke.py
+.venv/bin/uvicorn backend.main:app --host 127.0.0.1 --port 8000
+```
+
+进入 WSL 不等于自动激活 `.venv`。除非明确执行 `source .venv/bin/activate`，否则 Python 命令都应写成 `.venv/bin/python` 或 `.venv/bin/uvicorn`。
+
 ## 5. 边缘端病例包契约
 
 每个病例必须放在 `data/cases/case_xxx/` 下。第一版固定结构如下：
