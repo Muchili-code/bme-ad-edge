@@ -6,3 +6,22 @@ Page style.md
 Question.md
 展示形式.md
 香橙派 aipro.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Local environment and runtime output
+.env
+*.log

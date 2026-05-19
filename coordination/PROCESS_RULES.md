@@ -10,6 +10,24 @@
 6. 不允许跳过后端真实计算直接在前端硬编码结果。
 7. 不允许实现或声称边缘端真实运行完整 DisC-Diff、FreeSurfer、全脑配准或科研级预处理。
 
+## 1.1 三层协作职责
+
+本项目采用三层协作：
+
+```text
+Overall Master
+  -> Module Master
+    -> Task Worker
+```
+
+职责边界：
+
+1. Overall Master：维护共享契约、总状态、跨模块顺序、最终验收和回退策略。
+2. Module Master：阅读本模块任务书，拆分任务，给 Task Worker 下发可复制指令，汇总子进程状态，检查本模块产物，更新本模块 `coordination/status/*.status.md`。
+3. Task Worker：在明确写入范围内执行具体代码、脚本、数据或文档修改，并把自测结果汇报给 Module Master。
+
+除非任务很小、用户明确要求快速直写，或当前上下文没有再开 Task Worker 的条件，否则 Module Master 不应默认亲自完成整个模块的代码实现。Module Master 可以做少量协调性修补，例如状态汇总、任务提示修正、非业务性的 `.gitignore` 或 README 小修，但大块功能实现应交给 Task Worker。
+
 ## 2. 状态回写规则
 
 每个任务完成或遇到阻塞时，更新对应状态文件，格式如下：
