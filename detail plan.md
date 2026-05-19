@@ -151,7 +151,7 @@ wsl -d Ubuntu --cd /home/<user>/ad-edge-demo -- bash -lc "./start_demo.sh"
 
 禁止在 Windows PowerShell 中直接对 WSL 项目运行 Windows 版 `npm install`、`pip install`、`python`、`uvicorn` 或 `vite`。项目中的 `.venv/`、`node_modules/`、`dist/`、`build/` 应只由 WSL 内的 Python/Node 工具生成。这样可以避免软链接、二进制依赖、路径分隔符和权限差异导致迁移失败。
 
-如果已经进入 WSL 终端并位于项目根目录，后端测试不要裸跑 `python`、`pytest`、`uvicorn`。统一使用项目虚拟环境：
+如果已经进入 WSL 终端并位于项目根目录，后端测试不要裸跑 `python`、`pytest`、`uvicorn`。统一使用项目虚拟环境（以下指令均是已在项目工作目录内）：
 
 ```bash
 .venv/bin/python -m pytest backend/tests -q
