@@ -1,0 +1,14 @@
+{
+  "case_id": "case_MCI_001",
+  "group": "MCI",
+  "display_name": "轻度认知障碍示例",
+  "data_mode": "mock",
+  "description": "科研数据未到前使用的小型可计算模拟病例",
+  "scan_protocol": "mock_dMRI_b1000_12dir",
+  "processing_status": {
+    "external_package_ready": true,
+    "board_dti_done": false,
+    "board_ri_done": false,
+    "board_report_done": false
+  }
+}

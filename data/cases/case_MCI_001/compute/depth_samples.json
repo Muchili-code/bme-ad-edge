@@ -1,0 +1,647 @@
+{
+  "depth_percent": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "rois": [
+    {
+      "roi_id": "ROI_001",
+      "roi_name": "Superior Parietal",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            7.64,
+            8.68,
+            4.059
+          ],
+          "expected_mock_ri": 0.4696
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            7.712,
+            8.744,
+            4.447
+          ],
+          "expected_mock_ri": 0.5617
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            7.784,
+            8.808,
+            4.835
+          ],
+          "expected_mock_ri": 0.6358
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            7.856,
+            8.872,
+            5.224
+          ],
+          "expected_mock_ri": 0.6895
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            7.928,
+            8.936,
+            5.612
+          ],
+          "expected_mock_ri": 0.7231
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            8.0,
+            9.0,
+            6.0
+          ],
+          "expected_mock_ri": 0.7378
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            8.072,
+            9.064,
+            6.388
+          ],
+          "expected_mock_ri": 0.7335
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            8.144,
+            9.128,
+            6.776
+          ],
+          "expected_mock_ri": 0.708
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            8.216,
+            9.192,
+            7.165
+          ],
+          "expected_mock_ri": 0.6583
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            8.288,
+            9.256,
+            7.553
+          ],
+          "expected_mock_ri": 0.5828
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            8.36,
+            9.32,
+            7.941
+          ],
+          "expected_mock_ri": 0.4836
+        }
+      ]
+    },
+    {
+      "roi_id": "ROI_002",
+      "roi_name": "Precuneus",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            23.24,
+            9.6,
+            5.055
+          ],
+          "expected_mock_ri": 0.4303
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            23.192,
+            9.68,
+            5.444
+          ],
+          "expected_mock_ri": 0.5104
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            23.144,
+            9.76,
+            5.833
+          ],
+          "expected_mock_ri": 0.5775
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            23.096,
+            9.84,
+            6.222
+          ],
+          "expected_mock_ri": 0.6293
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            23.048,
+            9.92,
+            6.611
+          ],
+          "expected_mock_ri": 0.6659
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            23.0,
+            10.0,
+            7.0
+          ],
+          "expected_mock_ri": 0.6874
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            22.952,
+            10.08,
+            7.389
+          ],
+          "expected_mock_ri": 0.6919
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            22.904,
+            10.16,
+            7.778
+          ],
+          "expected_mock_ri": 0.6756
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            22.856,
+            10.24,
+            8.167
+          ],
+          "expected_mock_ri": 0.6337
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            22.808,
+            10.32,
+            8.556
+          ],
+          "expected_mock_ri": 0.5631
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            22.76,
+            10.4,
+            8.945
+          ],
+          "expected_mock_ri": 0.4653
+        }
+      ]
+    },
+    {
+      "roi_id": "ROI_003",
+      "roi_name": "Posterior Cingulate",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            11.84,
+            21.44,
+            6.056
+          ],
+          "expected_mock_ri": 0.4434
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            11.872,
+            21.352,
+            6.444
+          ],
+          "expected_mock_ri": 0.5275
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            11.904,
+            21.264,
+            6.833
+          ],
+          "expected_mock_ri": 0.5969
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            11.936,
+            21.176,
+            7.222
+          ],
+          "expected_mock_ri": 0.6493
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            11.968,
+            21.088,
+            7.611
+          ],
+          "expected_mock_ri": 0.685
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            12.0,
+            21.0,
+            8.0
+          ],
+          "expected_mock_ri": 0.7042
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            12.032,
+            20.912,
+            8.389
+          ],
+          "expected_mock_ri": 0.7058
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            12.064,
+            20.824,
+            8.778
+          ],
+          "expected_mock_ri": 0.6864
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            12.096,
+            20.736,
+            9.167
+          ],
+          "expected_mock_ri": 0.6419
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            12.128,
+            20.648,
+            9.556
+          ],
+          "expected_mock_ri": 0.5697
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            12.16,
+            20.56,
+            9.944
+          ],
+          "expected_mock_ri": 0.4714
+        }
+      ]
+    },
+    {
+      "roi_id": "ROI_004",
+      "roi_name": "Inferior Parietal",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            21.46,
+            22.24,
+            5.068
+          ],
+          "expected_mock_ri": 0.4617
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            21.368,
+            22.192,
+            5.455
+          ],
+          "expected_mock_ri": 0.5525
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            21.276,
+            22.144,
+            5.841
+          ],
+          "expected_mock_ri": 0.6248
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            21.184,
+            22.096,
+            6.227
+          ],
+          "expected_mock_ri": 0.6764
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            21.092,
+            22.048,
+            6.614
+          ],
+          "expected_mock_ri": 0.7079
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            21.0,
+            22.0,
+            7.0
+          ],
+          "expected_mock_ri": 0.721
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            20.908,
+            21.952,
+            7.386
+          ],
+          "expected_mock_ri": 0.7157
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            20.816,
+            21.904,
+            7.773
+          ],
+          "expected_mock_ri": 0.6903
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            20.724,
+            21.856,
+            8.159
+          ],
+          "expected_mock_ri": 0.6417
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            20.632,
+            21.808,
+            8.545
+          ],
+          "expected_mock_ri": 0.5683
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            20.54,
+            21.76,
+            8.932
+          ],
+          "expected_mock_ri": 0.4723
+        }
+      ]
+    },
+    {
+      "roi_id": "ROI_005",
+      "roi_name": "Middle Temporal",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            8.44,
+            24.2,
+            3.09
+          ],
+          "expected_mock_ri": 0.4499
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            8.552,
+            24.16,
+            3.472
+          ],
+          "expected_mock_ri": 0.5361
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            8.664,
+            24.12,
+            3.854
+          ],
+          "expected_mock_ri": 0.6066
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            8.776,
+            24.08,
+            4.236
+          ],
+          "expected_mock_ri": 0.6594
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            8.888,
+            24.04,
+            4.618
+          ],
+          "expected_mock_ri": 0.6945
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            9.0,
+            24.0,
+            5.0
+          ],
+          "expected_mock_ri": 0.7126
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            9.112,
+            23.96,
+            5.382
+          ],
+          "expected_mock_ri": 0.7127
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            9.224,
+            23.92,
+            5.764
+          ],
+          "expected_mock_ri": 0.6918
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            9.336,
+            23.88,
+            6.146
+          ],
+          "expected_mock_ri": 0.646
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            9.448,
+            23.84,
+            6.528
+          ],
+          "expected_mock_ri": 0.573
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            9.56,
+            23.8,
+            6.91
+          ],
+          "expected_mock_ri": 0.4745
+        }
+      ]
+    },
+    {
+      "roi_id": "ROI_006",
+      "roi_name": "Medial Frontal",
+      "samples": [
+        {
+          "depth_percent": 0,
+          "voxel": [
+            24.36,
+            6.48,
+            7.103
+          ],
+          "expected_mock_ri": 0.4631
+        },
+        {
+          "depth_percent": 10,
+          "voxel": [
+            24.288,
+            6.584,
+            7.482
+          ],
+          "expected_mock_ri": 0.5532
+        },
+        {
+          "depth_percent": 20,
+          "voxel": [
+            24.216,
+            6.688,
+            7.862
+          ],
+          "expected_mock_ri": 0.6261
+        },
+        {
+          "depth_percent": 30,
+          "voxel": [
+            24.144,
+            6.792,
+            8.241
+          ],
+          "expected_mock_ri": 0.6794
+        },
+        {
+          "depth_percent": 40,
+          "voxel": [
+            24.072,
+            6.896,
+            8.621
+          ],
+          "expected_mock_ri": 0.7135
+        },
+        {
+          "depth_percent": 50,
+          "voxel": [
+            24.0,
+            7.0,
+            9.0
+          ],
+          "expected_mock_ri": 0.7294
+        },
+        {
+          "depth_percent": 60,
+          "voxel": [
+            23.928,
+            7.104,
+            9.379
+          ],
+          "expected_mock_ri": 0.7266
+        },
+        {
+          "depth_percent": 70,
+          "voxel": [
+            23.856,
+            7.208,
+            9.759
+          ],
+          "expected_mock_ri": 0.7026
+        },
+        {
+          "depth_percent": 80,
+          "voxel": [
+            23.784,
+            7.312,
+            10.138
+          ],
+          "expected_mock_ri": 0.6542
+        },
+        {
+          "depth_percent": 90,
+          "voxel": [
+            23.712,
+            7.416,
+            10.518
+          ],
+          "expected_mock_ri": 0.5795
+        },
+        {
+          "depth_percent": 100,
+          "voxel": [
+            23.64,
+            7.52,
+            10.897
+          ],
+          "expected_mock_ri": 0.4805
+        }
+      ]
+    }
+  ]
+}

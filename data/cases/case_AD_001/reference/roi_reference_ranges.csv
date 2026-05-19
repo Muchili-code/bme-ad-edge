@@ -1,0 +1,7 @@
+roi_id,roi_name,network,hemisphere,ri_maximum_low,ri_maximum_high,ri_skewness_low,ri_skewness_high
+ROI_001,Superior Parietal,dorsal_attention,L,0.76,0.91,-0.35,0.35
+ROI_002,Precuneus,default_mode,R,0.76,0.91,-0.35,0.35
+ROI_003,Posterior Cingulate,default_mode,L,0.76,0.91,-0.35,0.35
+ROI_004,Inferior Parietal,frontoparietal,R,0.76,0.91,-0.35,0.35
+ROI_005,Middle Temporal,temporal_memory,L,0.76,0.91,-0.35,0.35
+ROI_006,Medial Frontal,executive_control,R,0.76,0.91,-0.35,0.35

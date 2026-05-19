@@ -1,0 +1,77 @@
+{
+  "roi_count": 6,
+  "rois": [
+    {
+      "roi_id": "ROI_001",
+      "roi_name": "Superior Parietal",
+      "network": "dorsal_attention",
+      "hemisphere": "L",
+      "label": 1,
+      "center_voxel": [
+        8,
+        9,
+        6
+      ]
+    },
+    {
+      "roi_id": "ROI_002",
+      "roi_name": "Precuneus",
+      "network": "default_mode",
+      "hemisphere": "R",
+      "label": 2,
+      "center_voxel": [
+        23,
+        10,
+        7
+      ]
+    },
+    {
+      "roi_id": "ROI_003",
+      "roi_name": "Posterior Cingulate",
+      "network": "default_mode",
+      "hemisphere": "L",
+      "label": 3,
+      "center_voxel": [
+        12,
+        21,
+        8
+      ]
+    },
+    {
+      "roi_id": "ROI_004",
+      "roi_name": "Inferior Parietal",
+      "network": "frontoparietal",
+      "hemisphere": "R",
+      "label": 4,
+      "center_voxel": [
+        21,
+        22,
+        7
+      ]
+    },
+    {
+      "roi_id": "ROI_005",
+      "roi_name": "Middle Temporal",
+      "network": "temporal_memory",
+      "hemisphere": "L",
+      "label": 5,
+      "center_voxel": [
+        9,
+        24,
+        5
+      ]
+    },
+    {
+      "roi_id": "ROI_006",
+      "roi_name": "Medial Frontal",
+      "network": "executive_control",
+      "hemisphere": "R",
+      "label": 6,
+      "center_voxel": [
+        24,
+        7,
+        9
+      ]
+    }
+  ]
+}
